@@ -46,6 +46,7 @@ class User extends Authenticatable
         'password',
         'display_name',
         'avatar',
+        'description',
     ];
 
     /**
