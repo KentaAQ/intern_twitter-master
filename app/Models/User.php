@@ -58,4 +58,9 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
+
+    public function tweets()
+    {
+        return $this->hasMany(Tweet::class);
+    }
 }
